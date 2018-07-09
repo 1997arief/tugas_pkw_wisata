@@ -1,0 +1,116 @@
+body{
+	font-family: sans-serif;
+	width: 100%;
+}
+.container{
+	width: 1024px;
+	margin: 0 auto;
+}
+.slogan{
+	width: 100%;
+	color: #000;
+	height: 100px;
+}
+.slogan > h1{
+	margin-top: 0;
+	padding-top: 20px;
+	text-align: center;
+}
+.image{
+	width: 824px;
+	float: left;
+	height: 200px;
+	background-color: #03A9F4;
+	background-image: url('banner.jpg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.menu{
+	width: 200px;
+	height: 200px;
+	float: right;
+}
+.paket-wisata{
+	text-align: center;
+	clear: both;
+}
+.paket-wisata > h2, .wisata > h2 {
+	padding-top: 20px;
+}
+.menu ul{
+	list-style: none;
+	padding-left: 0;
+}
+.menu ul li {
+	padding: 5px;
+	margin: 5px;
+	text-align: center;
+	background-color: #03A9F4;
+}
+.menu ul li > a{
+	color: #FFF;
+	text-decoration: none;
+}
+.menu ul li:hover{
+	background-color: #33C9F4;
+}
+.paket-wisata-isi{
+	width: 33%;
+	/*height: 200px;*/
+	border: 1px solid #03A9F4;
+	border-radius: 10px;
+	float: left;
+}
+.detail-wisata{
+	width: 85%;
+	margin: 10px auto;
+}
+.detail-wisata > img{
+	width: 100%;
+	max-height: 150px;
+}
+.info-wisata{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: justify;
+	font-size: 20px;
+}
+.wisata{
+	clear: both;
+}
+.wisata h2{
+	text-align: center;
+}
+.wisata-fav{
+	width: 90%;
+	min-height: 120px;
+	margin: 20px auto;
+	font-size: 20px;
+	text-align: justify;
+}
+.wisata-fav > img{
+	width: 200px;
+	height: 120px;
+}
+.img-wisata-fav{
+	max-width: 200px;
+	float: left;
+	position: relative;
+	margin-right: 20px;
+}
+.footer{
+	text-align: center;
+}
+ul.footer-link{
+	list-style: none;
+	padding-top: 0;
+	padding-left: 0;
+	margin-top: 5px;
+}
+ul.footer-link > li{
+	display: inline;
+}
+ul.footer-link > li > a{
+	text-decoration: none;
+}
