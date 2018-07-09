@@ -101,6 +101,9 @@ body{
 }
 .footer{
 	text-align: center;
+	background-color: #03A9F4;
+	color: #FFF;
+	padding: 10px;
 }
 ul.footer-link{
 	list-style: none;
