@@ -171,15 +171,17 @@ ul.footer-link > li > a{
 
 .content{
 	clear: both;
-	width: 100%;
+	width: 1004px;
 	margin: 10px auto;
 	padding: 10px;
 }
 
 /*form input*/
 #form_contact{
-	max-width: 580px;
-	margin: 0 auto;
+	width: 580px;
+	clear: none;
+	display: inline-block;
+	vertical-align: top;
 }
 .textInput{
     display: inline;
@@ -220,4 +222,18 @@ textarea.textInput{
 .tombol-biru{
 	color: #FFF;
 	background-color: #189bf8;
+}
+.nim{
+	color: #959595;
+	font-size: 12px;
+}
+p.about-desc{
+	font-size: 16px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.peta{
+	width: 404px;
+	clear: none;
+	display: inline-block;
 }
