@@ -1,10 +1,12 @@
 body{
 	font-family: sans-serif;
+	background-color: #f5f5f5;
 	width: 100%;
 }
 .container{
 	width: 1024px;
 	margin: 0 auto;
+	background-color: #FFF;
 }
 .slogan{
 	width: 100%;
@@ -56,8 +58,8 @@ body{
 	background-color: #33C9F4;
 }
 .paket-wisata-isi{
-	width: 33%;
-	/*height: 200px;*/
+	width: 30.1%;
+	margin: 0 1.5%;
 	border: 1px solid #03A9F4;
 	border-radius: 10px;
 	float: left;
@@ -116,4 +118,106 @@ ul.footer-link > li{
 }
 ul.footer-link > li > a{
 	text-decoration: none;
+}
+
+/* Data Table*/
+
+.dataTable {
+  display: table;
+  width: 100%;
+  margin: 1em 0;
+}
+
+.dataTable thead {
+  display: table-header-group;
+  float: none;
+}
+
+.dataTable tbody {
+  width: auto;
+  position: relative;
+  overflow-x: auto;
+  display: table-row-group;
+}
+
+.dataTable td, .dataTable th {
+  padding: 5px;
+  line-height: 20px;
+  border-bottom: 1px dashed #ccc;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  overflow-y: auto;
+  display: table-cell;
+  width: auto;
+}
+
+.dataTable th {
+  text-align: left;
+  background: rgba(0, 0, 0, 0.14);
+  border-bottom: 1px dashed #aaa;
+}
+
+.dataTable thead tr, .dataTable tbody tr {
+  display: table-row;
+}
+
+.dataTable tbody td {
+  display: table-cell;
+}
+
+.dataTable tr:nth-child(odd) {
+	background: rgba(0, 0, 0, 0.07);
+}
+
+.content{
+	clear: both;
+	width: 100%;
+	margin: 10px auto;
+	padding: 10px;
+}
+
+/*form input*/
+#form_contact{
+	max-width: 580px;
+	margin: 0 auto;
+}
+.textInput{
+    display: inline;
+    width: auto;
+    padding: 5px 10px;
+    margin-left: 20px;
+    font-size: 13px;
+    line-height: 1.5384616;
+    color: #333333;
+    background-color: transparent;
+    border: 1px solid #ddd;
+}
+.no-margin-left{
+	margin-left: 0;
+}
+textarea.textInput{
+    outline: 0;
+    border: 1px solid #aaaaaa;
+    padding: 12px;
+    margin-top: 20px;
+    color: #999999;
+    display: block;
+    width: 540px;
+}
+.tombol{
+    color: #FAFAFA;
+    font-size: 14px;
+    padding: 10px 14px;
+    margin: 8px;
+    border-radius: 20px;
+    border: 0 none;
+    transition: 0.5s;
+    background-size: 200% auto;
+    text-decoration: none;
+    min-width: 160px;
+    cursor: pointer;
+}
+.tombol-biru{
+	color: #FFF;
+	background-color: #189bf8;
 }
